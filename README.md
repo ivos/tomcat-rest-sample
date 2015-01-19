@@ -26,6 +26,12 @@ which implies:
 ## Running locally
 
 1. Install standalone Tomcat.
-2. Start Tomcat <kbd>startup.sh</kbd>.
-3. Execute <kbd>mvn</kbd> to build the war and deploy / re-deploy it to the running Tomcat server.
-4. Access the [home page](http://localhost:8080/tomcat-rest-sample/).
+2. Configure its <code>conf/tomcat-users.xml</code>:
+<pre>
+  &lt;role rolename="manager-gui"/>
+  &lt;role rolename="manager-script"/>
+  &lt;user username="admin" password="" roles="manager-gui,manager-script"/>
+</pre>
+3. Start Tomcat <kbd>startup.sh</kbd>.
+4. Execute <kbd>mvn</kbd> to build the war and deploy / re-deploy it to the running Tomcat server.
+5. Access the [home page](http://localhost:8080/tomcat-rest-sample/).
