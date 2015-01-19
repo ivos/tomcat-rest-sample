@@ -17,7 +17,7 @@ Tomcat Maven Plugin ([which](http://tomcat.apache.org/maven-plugin.html)), last 
 Java 1.7.0_67.
 
 REST provider [JBoss RestEasy](http://resteasy.jboss.org/)
-in its [latest stable version 3.0.1.Final](http://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jaxrs).
+in its [latest stable version 3.0.10.Final](http://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jaxrs).
 
 CDI provider [Weld](http://weld.cdi-spec.org/) in its latest current version 2.2.8.Final.
 which implies:
